@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<parameter name="broswer" value="chrome"></parameter>
+<parameter name="url" value="http://leaftaps.com/opentaps/control/logout"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="tests.TC002_CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
